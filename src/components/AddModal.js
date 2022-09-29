@@ -60,7 +60,7 @@ export default function AddModal({titles, hours, availability, updateData}) {
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="title">
-              <Form.Label>Title</Form.Label>
+              <Form.Label>Select Column</Form.Label>
               <Form.Select aria-label="Titles" onChange={updateForm}>
                 {titles.map(title => <option key={title} value={title}>{title}</option>)}
               </Form.Select>
